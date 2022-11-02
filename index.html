@@ -32,7 +32,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3686473883';
+    var serviceWorkerVersion = '1651114215';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -65,6 +65,13 @@
     });
   </script>
 
+<!--script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("/firebase-messaging-sw.js");
+    });
+  }
+</script-->
 
 
 </body></html>
